@@ -49,8 +49,4 @@ def kal_datei_erstellen(kurse):
     for kurs in kurse:
         add_course(kurs)
 
-    temp = tempfile.TemporaryFile("w")
-    temp.writelines(c)
-    with open("test.txt", "wb") as test:
-        test.write(temp)
-    return temp
+    return c

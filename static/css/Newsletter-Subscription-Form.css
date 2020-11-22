@@ -1,6 +1,5 @@
 .newsletter-subscribe {
   color: #313437;
-  background-color: #fff;
   padding: 50px 0;
 }
 
@@ -59,7 +58,19 @@
   letter-spacing: 0.4px;
   line-height: 1;
 }
-
+input
+{
+  background-color: #bdbbb6 !important;
+}
+a {
+  color: #36403a;
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #E5D9CC;
+  text-decoration: none;
+}
 .newsletter-subscribe form .btn:hover {
   opacity: 1;
 }
@@ -69,8 +80,12 @@
 }
 
 .newsletter-subscribe form .btn-primary {
-  background-color: #055ada !important;
+  background-color: #73877b !important;
   color: #fff;
   outline: none !important;
 }
 
+body
+{
+  background-color: #f5e4d7 !important;
+}
